@@ -1,1 +1,10 @@
+*
 Automa-Vizualizer/
+
+
+!.gitignore
+
+!main.c
+!app.c
+!automata/
+!README.md
