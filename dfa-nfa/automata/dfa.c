@@ -4,9 +4,9 @@
 typedef struct{
 
   int num_states;
-  int* transitions;
+  int transitions[LIMIT][LIMIT];
   int start_state;
-  int* accept_states;
+  int accept_states[LIMIT];
 } DFA;
 
 int dfa_gen(DFA * dfa, char* input) {
